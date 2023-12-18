@@ -1,0 +1,293 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+}
+
+a {
+    color: inherit;
+}
+
+body {
+    background-color: #be76a9;
+    margin: 0;
+    padding: 0;
+    font-family: "average";
+}
+
+.heardsito{
+   background-color: black;
+    color: azure;
+   padding: 2rem;
+   margin-bottom: 0;
+}
+.BIT{
+    margin-bottom: 0;
+}
+
+.logo{
+    color: white;
+    background-color: black;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: "average";
+    color: snow;
+    background-color: black;
+}
+
+
+
+
+/* no estoy seguro si cambiarlo a flexbox */
+.navigation {
+    list-style: none;
+    padding: 1rem;
+    background-color: black;
+    margin-bottom: 0;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navigation li a {
+    color: white
+}
+
+.navigation li a:hover {
+    color: black
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.nav1{
+    background-color: black;
+}
+
+.francais{
+    background-color: #0e0d0d;
+    color: #ccc;
+    font-size: 170%;
+    padding: 2rem;
+    margin-bottom: 0;
+}
+
+.fullstack{
+    background-color: #444040;
+    color: #fff;
+    font-size: 250%;
+    padding: 2rem;
+}
+
+/*hero*/
+
+.hero {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #be76a9;
+}
+
+.hero-left {
+    margin: 1rem;
+    padding: 3rem;
+    flex: 1;
+    font-size: x-large; /* Increase font size */
+    background-color: #f4dcec;
+}
+
+.hero-left::first-letter{
+font-size: larger;
+color: #c51313;
+}
+
+.hero-right {
+    flex: 1;
+    height: 480px; /* Adjust the height */
+    width: 480px; /* Adjust the width */
+    margin: 0.5rem; /* Reduce margin for closer proximity */
+    font-size: larger; /* Increase font size */
+}
+
+.irie{
+    padding: 2rem;
+    background-color: #eacae0;
+}
+
+.contactito{
+    background-color: #f4dcec;
+}
+
+
+@media (max-width: 768px) {
+    .hero{
+        display: block;
+    }
+}
+
+/* Estilos de los párrafos y listas */
+
+
+
+
+/* Estilos de la sección 'location' */
+.location {
+    font-size: 120%;
+    font-family: sans-serif
+}
+
+.location-box {
+    text-align: center;
+    background-color: #c24040;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.input{
+border-radius: 4px;
+padding: 8px;
+}
+
+.input:focus{
+    border-color: #c24040;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+    
+}
+
+/* Estilos de servicios y tecnologías */
+.services,
+.technologies {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #6c5ce7;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+/* Aqui empieza el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-info,
+.social-links {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.contact-info h4,
+.social-links h4 {
+    margin-bottom: 15px;
+}
+
+.contact-info p,
+.social-links ul {
+    margin-bottom: 10px;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links ul li {
+    margin-bottom: 8px;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+
+.grillas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Define las columnas de la cuadrícula */
+    gap: 20px; /* Espacio entre los elementos */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    
+   
+    
+}
+
+.skills, .experience, .softskill, .education, .realms, .selfie {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.botoncito{
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.botoncito:hover{
+    background-color: #0e0d0d;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.selfie{
+    size: 20%;
+}
+
+@media (max-width: 578px) {
+
+    .grillas{
+        grid-template-columns: 1fr;
+        grid-template-rows: 6;
+    
+        
+    }
+}
+
